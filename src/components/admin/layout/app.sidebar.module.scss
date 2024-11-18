@@ -1,0 +1,15 @@
+.menu_buttom {
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    color: #fff !important;
+  }
+}
+
+.menu_buttom_active {
+  background-color: #fff !important;
+  color: #677fb1;
+  &:hover {
+    background-color: #fff !important;
+    color: #677fb1 !important;
+  }
+}

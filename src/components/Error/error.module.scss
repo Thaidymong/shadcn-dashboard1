@@ -1,0 +1,14 @@
+.errorImage {
+  width: auto;
+  height: 350px;
+
+  @media screen and (max-width: 992px) {
+    width: auto;
+    height: 280px;
+  }
+
+  @media (max-width: 768px) {
+    width: auto;
+    height: 230px;
+  }
+}
