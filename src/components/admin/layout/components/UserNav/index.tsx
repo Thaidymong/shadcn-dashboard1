@@ -12,7 +12,7 @@ import {
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import dynamic from "next/dynamic";
 import { LogOut } from "lucide-react";
-import ClipLoader from "react-spinners/ClipLoader";
+// import ClipLoader from "react-spinners/ClipLoader";
 
 const LogoutModal = dynamic(
   () => import("./../LogoutModal").then((mod) => mod.LogoutModal),
@@ -76,7 +76,7 @@ export const UserNav = () => {
                   <button disabled={pending}>
                     {pending ? (
                       <>
-                        <ClipLoader color="black" className="" size={20} />
+                        {/* <ClipLoader color="black" className="" size={20} /> */}
                         Loading...
                       </>
                     ) : (

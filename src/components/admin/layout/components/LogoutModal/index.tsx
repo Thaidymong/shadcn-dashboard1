@@ -16,7 +16,7 @@ import {
 import { TriangleAlert } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTransition } from "react";
-import PulseLoader from "react-spinners/PulseLoader";
+// import PulseLoader from "react-spinners/PulseLoader";
 import { useMediaQuery } from "@/hooks/use-media-query";
 
 type LogoutModalProps = {
@@ -52,11 +52,11 @@ export const LogoutModal: React.FC<LogoutModalProps> = (props) => {
               disabled={pending ? true : false}
               className="bg-[#5B73E8] hover:bg-[#546bdb]"
             >
-              {pending ? (
+              {/* {pending ? (
                 <PulseLoader size={12} color="#ffffff" />
               ) : (
                 <>Logout</>
-              )}
+              )} */}
             </Button>
           </DialogFooter>
         </DialogContent>
@@ -91,7 +91,7 @@ export const LogoutModal: React.FC<LogoutModalProps> = (props) => {
             disabled={pending ? true : false}
             className="bg-[#5B73E8] hover:bg-[#546bdb]"
           >
-            {pending ? <PulseLoader size={12} color="#ffffff" /> : <>Logout</>}
+            {/* {pending ? <PulseLoader size={12} color="#ffffff" /> : <>Logout</>} */}
           </Button>
         </DrawerFooter>
       </DrawerContent>
